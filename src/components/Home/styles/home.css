@@ -1,0 +1,15 @@
+#home{
+  
+    flex-direction: column-reverse;
+    display: flex;
+   
+}
+
+@media(min-width:800px){
+    #home{
+      display: grid;
+      grid-template-columns: 1fr 4fr; grid-gap:20px;
+    }
+  
+   
+  }
